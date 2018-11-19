@@ -1,10 +1,11 @@
 {
   "pages": [
-    "page/component/index"
+    "page/index/index",
+    "page/detail/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "方便体贴",
+    "navigationBarTitleText": "方便地铁",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },

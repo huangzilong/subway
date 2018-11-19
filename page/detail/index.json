@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "方便地铁",
+  "usingComponents": {
+    "vant-icon": "/vant-weapp/icon/index"
+  }
+}

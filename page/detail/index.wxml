@@ -1,0 +1,19 @@
+<view
+  class="detail"
+>
+  <image 
+    wx:if="{{subway}}"
+    src="http://static.huangzilong.com/static/subways/{{subway}}.jpg"
+    lazy-load
+    mode="widthFix"
+    bindload="loadHandler"
+    binderror="errorHandler"
+  />
+  <view class="stretch"></view>
+  <view
+    class="icon-wrapper"
+    bindtap="navToHome"
+  >
+    <vant-icon name="password-view" color="white"/>
+  </view>
+</view>

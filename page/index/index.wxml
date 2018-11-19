@@ -1,0 +1,12 @@
+<scroll-view scroll-y>
+  <cell
+    wx:for="{{subways}}"
+    title="{{item}}号线"
+    is-link
+    arrow-direction="right"
+    border
+    url="/page/detail/index?subway={{item}}"
+    wx:key="{{index}}"
+  ></cell>
+  <view class="stretch"></view>
+</scroll-view>
